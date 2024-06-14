@@ -1,0 +1,354 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>55/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jun 14 08:57:04 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>464 seconds (464014 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tvs.com.TVS.RemoveBrand()'><b>RemoveBrand</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>2</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.TVSSPORT()'><b>TVSSPORT</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>11</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.Categories()'><b>Categories</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>2</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.TVSJUPITER125()'><b>TVSJUPITER125</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>11</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.MerchandisePage()'><b>MerchandisePage</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>5</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.LowtoHigh()'><b>LowtoHigh</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>8</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.ClearSubCategory()'><b>ClearSubCategory</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>2</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.TVSXL100()'><b>TVSXL100</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>11</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.Subcategories()'><b>Subcategories</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>2</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.AccessoriesPage()'><b>AccessoriesPage</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>4</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.SelectsecondBrand()'><b>SelectsecondBrand</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>2</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.TVSAPACHERTR310()'><b>TVSAPACHERTR310</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>11</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.BestSelling()'><b>BestSelling</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>6</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.TVSZEST()'><b>TVSZEST</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>10</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.ClearCategory()'><b>ClearCategory</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>2</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.SelectVehicle()'><b>SelectVehicle</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>7</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.TVSRADEON()'><b>TVSRADEON</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>12</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.DecreaseQnantity()'><b>DecreaseQnantity</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>5</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.PDPPage()'><b>PDPPage</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>67</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.Addtocart()'><b>Addtocart</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>18</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.Brand()'><b>Brand</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>1</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.CheckoutPage()'><b>CheckoutPage</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>6</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.ExclusivelyProduct()'><b>ExclusivelyProduct</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>6</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.Homepage()'><b>Homepage</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>4</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.ViewCartPage()'><b>ViewCartPage</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>2</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.WishlistPage()'><b>WishlistPage</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>4</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.TVSSCOOTYPEPPLUS()'><b>TVSSCOOTYPEPPLUS</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>11</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.Discount()'><b>Discount</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>8</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.SelectSubcategory()'><b>SelectSubcategory</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>2</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.Login()'><b>Login</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>12</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.ClearAllBrand()'><b>ClearAllBrand</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>2</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.IncreaseQuantity()'><b>IncreaseQuantity</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>5</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.shopbymodel()'><b>shopbymodel</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>3</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.SelectCategory()'><b>SelectCategory</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>2</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.TVSRAIDER()'><b>TVSRAIDER</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>12</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.TVSWEGO()'><b>TVSWEGO</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>11</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.TVSNTORQ()'><b>TVSNTORQ</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>12</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.TVSSTARCITYPLUS()'><b>TVSSTARCITYPLUS</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>11</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.Product()'><b>Product</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>2</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.ComingSoonPage()'><b>ComingSoonPage</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>6</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.SelectBrand()'><b>SelectBrand</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>2</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.TVSVICTOR()'><b>TVSVICTOR</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>11</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.TVSAPACHERR310()'><b>TVSAPACHERR310</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>11</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.OfferZonePage()'><b>OfferZonePage</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>6</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.TVSIQUBE()'><b>TVSIQUBE</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>10</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.SelectProduct()'><b>SelectProduct</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>2</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.TVSAPACHE()'><b>TVSAPACHE</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>11</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.Filter()'><b>Filter</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>3</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.CloseFilter()'><b>CloseFilter</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>2</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.TrackPage()'><b>TrackPage</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>3</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.TVSRONIN()'><b>TVSRONIN</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>11</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.ClearProduct()'><b>ClearProduct</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>2</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.SortBy()'><b>SortBy</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>3</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.AddtocartPLPPage()'><b>AddtocartPLPPage</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>22</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+<tr>
+<td title='tvs.com.TVS.TVSJUPITER()'><b>TVSJUPITER</b><br>Test class: tvs.com.TVS</td>
+<td></td>
+<td>12</td>
+<td>tvs.com.TVS@4fb3ee4e</td></tr>
+</table><p>
+</body>
+</html>

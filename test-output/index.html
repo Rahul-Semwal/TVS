@@ -1,0 +1,1323 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\Orange\AppData\Local\Temp\testng-eclipse-143744142\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">55 methods,   55 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="AccessoriesPage">AccessoriesPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="Addtocart">Addtocart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="AddtocartPLPPage">AddtocartPLPPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="BestSelling">BestSelling</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="Brand">Brand</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="Categories">Categories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="CheckoutPage">CheckoutPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="ClearAllBrand">ClearAllBrand</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="ClearCategory">ClearCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="ClearProduct">ClearProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="ClearSubCategory">ClearSubCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="CloseFilter">CloseFilter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="ComingSoonPage">ComingSoonPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="DecreaseQnantity">DecreaseQnantity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="Discount">Discount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="ExclusivelyProduct">ExclusivelyProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="Filter">Filter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="Homepage">Homepage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="IncreaseQuantity">IncreaseQuantity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="Login">Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="LowtoHigh">LowtoHigh</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="MerchandisePage">MerchandisePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="OfferZonePage">OfferZonePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="PDPPage">PDPPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="Product">Product</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="RemoveBrand">RemoveBrand</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="SelectBrand">SelectBrand</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="SelectCategory">SelectCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="SelectProduct">SelectProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="SelectSubcategory">SelectSubcategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="SelectVehicle">SelectVehicle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="SelectsecondBrand">SelectsecondBrand</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="SortBy">SortBy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="Subcategories">Subcategories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="TVSAPACHE">TVSAPACHE</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="TVSAPACHERR310">TVSAPACHERR310</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="TVSAPACHERTR310">TVSAPACHERTR310</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="TVSIQUBE">TVSIQUBE</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="TVSJUPITER">TVSJUPITER</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="TVSJUPITER125">TVSJUPITER125</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="TVSNTORQ">TVSNTORQ</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="TVSRADEON">TVSRADEON</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="TVSRAIDER">TVSRAIDER</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="TVSRONIN">TVSRONIN</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="TVSSCOOTYPEPPLUS">TVSSCOOTYPEPPLUS</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="TVSSPORT">TVSSPORT</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="TVSSTARCITYPLUS">TVSSTARCITYPLUS</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="TVSVICTOR">TVSVICTOR</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="TVSWEGO">TVSWEGO</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="TVSXL100">TVSXL100</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="TVSZEST">TVSZEST</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="TrackPage">TrackPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="ViewCartPage">ViewCartPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="WishlistPage">WishlistPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="tvs.com.TVS" class="method navigator-link" hash-for-method="shopbymodel">shopbymodel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tvs.com.TVS</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AccessoriesPage">
+                  </a> <!-- AccessoriesPage -->
+                  <span class="method-name">AccessoriesPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Addtocart">
+                  </a> <!-- Addtocart -->
+                  <span class="method-name">Addtocart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddtocartPLPPage">
+                  </a> <!-- AddtocartPLPPage -->
+                  <span class="method-name">AddtocartPLPPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BestSelling">
+                  </a> <!-- BestSelling -->
+                  <span class="method-name">BestSelling</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Brand">
+                  </a> <!-- Brand -->
+                  <span class="method-name">Brand</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Categories">
+                  </a> <!-- Categories -->
+                  <span class="method-name">Categories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CheckoutPage">
+                  </a> <!-- CheckoutPage -->
+                  <span class="method-name">CheckoutPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClearAllBrand">
+                  </a> <!-- ClearAllBrand -->
+                  <span class="method-name">ClearAllBrand</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClearCategory">
+                  </a> <!-- ClearCategory -->
+                  <span class="method-name">ClearCategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClearProduct">
+                  </a> <!-- ClearProduct -->
+                  <span class="method-name">ClearProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClearSubCategory">
+                  </a> <!-- ClearSubCategory -->
+                  <span class="method-name">ClearSubCategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CloseFilter">
+                  </a> <!-- CloseFilter -->
+                  <span class="method-name">CloseFilter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ComingSoonPage">
+                  </a> <!-- ComingSoonPage -->
+                  <span class="method-name">ComingSoonPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DecreaseQnantity">
+                  </a> <!-- DecreaseQnantity -->
+                  <span class="method-name">DecreaseQnantity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Discount">
+                  </a> <!-- Discount -->
+                  <span class="method-name">Discount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ExclusivelyProduct">
+                  </a> <!-- ExclusivelyProduct -->
+                  <span class="method-name">ExclusivelyProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Filter">
+                  </a> <!-- Filter -->
+                  <span class="method-name">Filter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Homepage">
+                  </a> <!-- Homepage -->
+                  <span class="method-name">Homepage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="IncreaseQuantity">
+                  </a> <!-- IncreaseQuantity -->
+                  <span class="method-name">IncreaseQuantity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login">
+                  </a> <!-- Login -->
+                  <span class="method-name">Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LowtoHigh">
+                  </a> <!-- LowtoHigh -->
+                  <span class="method-name">LowtoHigh</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MerchandisePage">
+                  </a> <!-- MerchandisePage -->
+                  <span class="method-name">MerchandisePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OfferZonePage">
+                  </a> <!-- OfferZonePage -->
+                  <span class="method-name">OfferZonePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PDPPage">
+                  </a> <!-- PDPPage -->
+                  <span class="method-name">PDPPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Product">
+                  </a> <!-- Product -->
+                  <span class="method-name">Product</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="RemoveBrand">
+                  </a> <!-- RemoveBrand -->
+                  <span class="method-name">RemoveBrand</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectBrand">
+                  </a> <!-- SelectBrand -->
+                  <span class="method-name">SelectBrand</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectCategory">
+                  </a> <!-- SelectCategory -->
+                  <span class="method-name">SelectCategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectProduct">
+                  </a> <!-- SelectProduct -->
+                  <span class="method-name">SelectProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectSubcategory">
+                  </a> <!-- SelectSubcategory -->
+                  <span class="method-name">SelectSubcategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectVehicle">
+                  </a> <!-- SelectVehicle -->
+                  <span class="method-name">SelectVehicle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SelectsecondBrand">
+                  </a> <!-- SelectsecondBrand -->
+                  <span class="method-name">SelectsecondBrand</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SortBy">
+                  </a> <!-- SortBy -->
+                  <span class="method-name">SortBy</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Subcategories">
+                  </a> <!-- Subcategories -->
+                  <span class="method-name">Subcategories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TVSAPACHE">
+                  </a> <!-- TVSAPACHE -->
+                  <span class="method-name">TVSAPACHE</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TVSAPACHERR310">
+                  </a> <!-- TVSAPACHERR310 -->
+                  <span class="method-name">TVSAPACHERR310</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TVSAPACHERTR310">
+                  </a> <!-- TVSAPACHERTR310 -->
+                  <span class="method-name">TVSAPACHERTR310</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TVSIQUBE">
+                  </a> <!-- TVSIQUBE -->
+                  <span class="method-name">TVSIQUBE</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TVSJUPITER">
+                  </a> <!-- TVSJUPITER -->
+                  <span class="method-name">TVSJUPITER</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TVSJUPITER125">
+                  </a> <!-- TVSJUPITER125 -->
+                  <span class="method-name">TVSJUPITER125</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TVSNTORQ">
+                  </a> <!-- TVSNTORQ -->
+                  <span class="method-name">TVSNTORQ</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TVSRADEON">
+                  </a> <!-- TVSRADEON -->
+                  <span class="method-name">TVSRADEON</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TVSRAIDER">
+                  </a> <!-- TVSRAIDER -->
+                  <span class="method-name">TVSRAIDER</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TVSRONIN">
+                  </a> <!-- TVSRONIN -->
+                  <span class="method-name">TVSRONIN</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TVSSCOOTYPEPPLUS">
+                  </a> <!-- TVSSCOOTYPEPPLUS -->
+                  <span class="method-name">TVSSCOOTYPEPPLUS</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TVSSPORT">
+                  </a> <!-- TVSSPORT -->
+                  <span class="method-name">TVSSPORT</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TVSSTARCITYPLUS">
+                  </a> <!-- TVSSTARCITYPLUS -->
+                  <span class="method-name">TVSSTARCITYPLUS</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TVSVICTOR">
+                  </a> <!-- TVSVICTOR -->
+                  <span class="method-name">TVSVICTOR</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TVSWEGO">
+                  </a> <!-- TVSWEGO -->
+                  <span class="method-name">TVSWEGO</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TVSXL100">
+                  </a> <!-- TVSXL100 -->
+                  <span class="method-name">TVSXL100</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TVSZEST">
+                  </a> <!-- TVSZEST -->
+                  <span class="method-name">TVSZEST</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TrackPage">
+                  </a> <!-- TrackPage -->
+                  <span class="method-name">TrackPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ViewCartPage">
+                  </a> <!-- ViewCartPage -->
+                  <span class="method-name">ViewCartPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WishlistPage">
+                  </a> <!-- WishlistPage -->
+                  <span class="method-name">WishlistPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shopbymodel">
+                  </a> <!-- shopbymodel -->
+                  <span class="method-name">shopbymodel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Orange\AppData\Local\Temp\testng-eclipse-143744142\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tvs.com.TVS&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(55);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'PDPPage')
+data.setCell(0, 2, 'tvs.com.TVS')
+data.setCell(0, 3, 67850);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'AddtocartPLPPage')
+data.setCell(1, 2, 'tvs.com.TVS')
+data.setCell(1, 3, 22614);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Addtocart')
+data.setCell(2, 2, 'tvs.com.TVS')
+data.setCell(2, 3, 18998);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TVSNTORQ')
+data.setCell(3, 2, 'tvs.com.TVS')
+data.setCell(3, 3, 12452);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TVSRADEON')
+data.setCell(4, 2, 'tvs.com.TVS')
+data.setCell(4, 3, 12425);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TVSRAIDER')
+data.setCell(5, 2, 'tvs.com.TVS')
+data.setCell(5, 3, 12418);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TVSJUPITER')
+data.setCell(6, 2, 'tvs.com.TVS')
+data.setCell(6, 3, 12043);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Login')
+data.setCell(7, 2, 'tvs.com.TVS')
+data.setCell(7, 3, 12036);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TVSWEGO')
+data.setCell(8, 2, 'tvs.com.TVS')
+data.setCell(8, 3, 11986);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TVSSTARCITYPLUS')
+data.setCell(9, 2, 'tvs.com.TVS')
+data.setCell(9, 3, 11964);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TVSAPACHE')
+data.setCell(10, 2, 'tvs.com.TVS')
+data.setCell(10, 3, 11950);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TVSRONIN')
+data.setCell(11, 2, 'tvs.com.TVS')
+data.setCell(11, 3, 11942);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TVSJUPITER125')
+data.setCell(12, 2, 'tvs.com.TVS')
+data.setCell(12, 3, 11843);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'TVSSCOOTYPEPPLUS')
+data.setCell(13, 2, 'tvs.com.TVS')
+data.setCell(13, 3, 11791);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'TVSSPORT')
+data.setCell(14, 2, 'tvs.com.TVS')
+data.setCell(14, 3, 11748);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'TVSXL100')
+data.setCell(15, 2, 'tvs.com.TVS')
+data.setCell(15, 3, 11743);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'TVSAPACHERTR310')
+data.setCell(16, 2, 'tvs.com.TVS')
+data.setCell(16, 3, 11716);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'TVSAPACHERR310')
+data.setCell(17, 2, 'tvs.com.TVS')
+data.setCell(17, 3, 11710);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'TVSVICTOR')
+data.setCell(18, 2, 'tvs.com.TVS')
+data.setCell(18, 3, 11626);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'TVSIQUBE')
+data.setCell(19, 2, 'tvs.com.TVS')
+data.setCell(19, 3, 10501);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'TVSZEST')
+data.setCell(20, 2, 'tvs.com.TVS')
+data.setCell(20, 3, 10320);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'LowtoHigh')
+data.setCell(21, 2, 'tvs.com.TVS')
+data.setCell(21, 3, 8554);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'Discount')
+data.setCell(22, 2, 'tvs.com.TVS')
+data.setCell(22, 3, 8507);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'SelectVehicle')
+data.setCell(23, 2, 'tvs.com.TVS')
+data.setCell(23, 3, 7479);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'OfferZonePage')
+data.setCell(24, 2, 'tvs.com.TVS')
+data.setCell(24, 3, 6721);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'ExclusivelyProduct')
+data.setCell(25, 2, 'tvs.com.TVS')
+data.setCell(25, 3, 6509);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'BestSelling')
+data.setCell(26, 2, 'tvs.com.TVS')
+data.setCell(26, 3, 6326);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'CheckoutPage')
+data.setCell(27, 2, 'tvs.com.TVS')
+data.setCell(27, 3, 6287);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'ComingSoonPage')
+data.setCell(28, 2, 'tvs.com.TVS')
+data.setCell(28, 3, 6069);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'MerchandisePage')
+data.setCell(29, 2, 'tvs.com.TVS')
+data.setCell(29, 3, 5242);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'IncreaseQuantity')
+data.setCell(30, 2, 'tvs.com.TVS')
+data.setCell(30, 3, 5206);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'DecreaseQnantity')
+data.setCell(31, 2, 'tvs.com.TVS')
+data.setCell(31, 3, 5161);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'Homepage')
+data.setCell(32, 2, 'tvs.com.TVS')
+data.setCell(32, 3, 4848);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'AccessoriesPage')
+data.setCell(33, 2, 'tvs.com.TVS')
+data.setCell(33, 3, 4521);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'WishlistPage')
+data.setCell(34, 2, 'tvs.com.TVS')
+data.setCell(34, 3, 4048);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'TrackPage')
+data.setCell(35, 2, 'tvs.com.TVS')
+data.setCell(35, 3, 3646);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'Filter')
+data.setCell(36, 2, 'tvs.com.TVS')
+data.setCell(36, 3, 3266);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'SortBy')
+data.setCell(37, 2, 'tvs.com.TVS')
+data.setCell(37, 3, 3240);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'shopbymodel')
+data.setCell(38, 2, 'tvs.com.TVS')
+data.setCell(38, 3, 3108);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'ViewCartPage')
+data.setCell(39, 2, 'tvs.com.TVS')
+data.setCell(39, 3, 2655);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'ClearSubCategory')
+data.setCell(40, 2, 'tvs.com.TVS')
+data.setCell(40, 3, 2450);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'SelectCategory')
+data.setCell(41, 2, 'tvs.com.TVS')
+data.setCell(41, 3, 2415);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'ClearCategory')
+data.setCell(42, 2, 'tvs.com.TVS')
+data.setCell(42, 3, 2378);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'ClearAllBrand')
+data.setCell(43, 2, 'tvs.com.TVS')
+data.setCell(43, 3, 2295);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'SelectsecondBrand')
+data.setCell(44, 2, 'tvs.com.TVS')
+data.setCell(44, 3, 2289);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'SelectBrand')
+data.setCell(45, 2, 'tvs.com.TVS')
+data.setCell(45, 3, 2281);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'SelectSubcategory')
+data.setCell(46, 2, 'tvs.com.TVS')
+data.setCell(46, 3, 2273);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'RemoveBrand')
+data.setCell(47, 2, 'tvs.com.TVS')
+data.setCell(47, 3, 2245);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'SelectProduct')
+data.setCell(48, 2, 'tvs.com.TVS')
+data.setCell(48, 3, 2241);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'ClearProduct')
+data.setCell(49, 2, 'tvs.com.TVS')
+data.setCell(49, 3, 2217);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'CloseFilter')
+data.setCell(50, 2, 'tvs.com.TVS')
+data.setCell(50, 3, 2209);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'Categories')
+data.setCell(51, 2, 'tvs.com.TVS')
+data.setCell(51, 3, 2187);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'Subcategories')
+data.setCell(52, 2, 'tvs.com.TVS')
+data.setCell(52, 3, 2173);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'Product')
+data.setCell(53, 2, 'tvs.com.TVS')
+data.setCell(53, 3, 2165);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'Brand')
+data.setCell(54, 2, 'tvs.com.TVS')
+data.setCell(54, 3, 1147);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tvs.com.TVS</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TrackPage</span>
+                <span class="method-start">6500 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">MerchandisePage</span>
+                <span class="method-start">10151 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AccessoriesPage</span>
+                <span class="method-start">15393 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">OfferZonePage</span>
+                <span class="method-start">19916 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ComingSoonPage</span>
+                <span class="method-start">26640 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Homepage</span>
+                <span class="method-start">32709 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">WishlistPage</span>
+                <span class="method-start">37557 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">shopbymodel</span>
+                <span class="method-start">41605 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SortBy</span>
+                <span class="method-start">44713 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">LowtoHigh</span>
+                <span class="method-start">47954 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Discount</span>
+                <span class="method-start">56509 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ExclusivelyProduct</span>
+                <span class="method-start">65016 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BestSelling</span>
+                <span class="method-start">71525 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Filter</span>
+                <span class="method-start">77851 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Brand</span>
+                <span class="method-start">81120 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectBrand</span>
+                <span class="method-start">82267 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectsecondBrand</span>
+                <span class="method-start">84548 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">RemoveBrand</span>
+                <span class="method-start">86837 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ClearAllBrand</span>
+                <span class="method-start">89082 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Categories</span>
+                <span class="method-start">91377 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectCategory</span>
+                <span class="method-start">93564 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ClearCategory</span>
+                <span class="method-start">95979 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Subcategories</span>
+                <span class="method-start">98357 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectSubcategory</span>
+                <span class="method-start">100530 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ClearSubCategory</span>
+                <span class="method-start">102803 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Product</span>
+                <span class="method-start">105256 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectProduct</span>
+                <span class="method-start">107421 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ClearProduct</span>
+                <span class="method-start">109662 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CloseFilter</span>
+                <span class="method-start">111879 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SelectVehicle</span>
+                <span class="method-start">114088 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TVSIQUBE</span>
+                <span class="method-start">121567 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TVSRONIN</span>
+                <span class="method-start">132070 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TVSAPACHE</span>
+                <span class="method-start">144012 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TVSAPACHERTR310</span>
+                <span class="method-start">155962 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TVSAPACHERR310</span>
+                <span class="method-start">167679 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TVSJUPITER</span>
+                <span class="method-start">179390 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TVSJUPITER125</span>
+                <span class="method-start">191433 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TVSNTORQ</span>
+                <span class="method-start">203276 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TVSRAIDER</span>
+                <span class="method-start">215728 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TVSRADEON</span>
+                <span class="method-start">228148 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TVSSCOOTYPEPPLUS</span>
+                <span class="method-start">240573 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TVSSPORT</span>
+                <span class="method-start">252365 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TVSSTARCITYPLUS</span>
+                <span class="method-start">264115 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TVSVICTOR</span>
+                <span class="method-start">276079 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TVSWEGO</span>
+                <span class="method-start">287705 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TVSXL100</span>
+                <span class="method-start">299691 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TVSZEST</span>
+                <span class="method-start">311434 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddtocartPLPPage</span>
+                <span class="method-start">321754 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PDPPage</span>
+                <span class="method-start">344368 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Login</span>
+                <span class="method-start">412220 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Addtocart</span>
+                <span class="method-start">424257 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">IncreaseQuantity</span>
+                <span class="method-start">443255 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DecreaseQnantity</span>
+                <span class="method-start">448462 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ViewCartPage</span>
+                <span class="method-start">453624 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CheckoutPage</span>
+                <span class="method-start">456279 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">endSession</span>
+                <span class="method-start">462568 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
